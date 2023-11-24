@@ -28,6 +28,10 @@ section.container-products {
     width: 59%;
 }
 
+.fundo-diferente {
+    background: linear-gradient(0.25turn,#e67a7a85, #b8bdeea2);;
+}
+
 #resultado {
     text-align: center;
     padding: 20px;
