@@ -10,11 +10,22 @@ header {
 
 section {
     background-color: white;
-    width: 90%;
+    width: 60%;
     padding: 15px;
     border-radius: 10px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+}
+
+section.container-products {
+    margin-top: 5px;
+}
+
+.titulo-secao {
+    color: white;
+    font-weight: bold;
+    margin: 25px auto 0 auto;
+    width: 59%;
 }
 
 #resultado {
@@ -26,4 +37,5 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+    margin-top: 10px;
 }
