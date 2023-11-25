@@ -136,3 +136,7 @@ function carrosselProdutos() {
         }
     }
 }
+
+
+let data = document.querySelector("#validade")
+data.addEventListener("focusout", () => console.log(data.value))
