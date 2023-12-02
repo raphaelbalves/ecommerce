@@ -102,3 +102,29 @@ input {
     left: 20px;
     top: 125px;
 }
+
+.numNoCartao {
+    position: absolute;
+    left: 20px;
+    top: 190px;
+}
+
+.nomeNoCartao {
+    position: absolute;
+    left: 20px;
+    top: 220px;
+    text-transform: uppercase;
+}
+
+.validadeNoCartao {
+    position: absolute;
+    left: 430px;
+    top: 220px;
+}
+
+.bandeiraNoCartao {
+    position: absolute;
+    left: 415px;
+    top: 30px;
+}
+
