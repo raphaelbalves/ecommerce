@@ -100,7 +100,7 @@ input {
 .chip {
     position: absolute;
     left: 20px;
-    top: 125px;
+    top: 100px;
 }
 
 .numNoCartao {
@@ -118,7 +118,7 @@ input {
 
 .validadeNoCartao {
     position: absolute;
-    left: 430px;
+    left: 415px;
     top: 220px;
 }
 

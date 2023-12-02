@@ -158,7 +158,8 @@ numeroCartao.addEventListener("keyup", () => {
         bandeira.innerHTML = visa
 
     } else if (`${numeroCartao.value}` === "") {
-        bandeira.innerText = ""
+        bandeira.innerText = "Bandeira"
+        numNoCartao.innerHTML = "0000 0000 0000 0000"
 
     }
 })
@@ -169,6 +170,9 @@ let nomeCartao = document.querySelector("#titular")
 
 nomeCartao.addEventListener("keyup", () => {
     nomeNoCartao.innerHTML = nomeCartao.value
+    if (nomeCartao.value === "") {
+        nomeNoCartao.innerHTML = "NOME DO TITULAR"
+    }
 })
 
 let validadeNoCartao = document.querySelector(".validadeNoCartao")
