@@ -128,3 +128,22 @@ input {
     top: 30px;
 }
 
+#num-cartao::placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+#titular::placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+#cpf::placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+#cvv::placeholder {
+    color: red;
+    font-weight: bold;
+}
