@@ -142,7 +142,7 @@ function carrosselProdutos() {
     }
 }
 
-
+/* 
 let bandeira = document.querySelector(".bandeiraNoCartao")
 
 
@@ -173,18 +173,16 @@ nomeCartao.addEventListener("keyup", () => {
     if (nomeCartao.value === "") {
         nomeNoCartao.innerHTML = "NOME DO TITULAR"
     }
-})
+}) 
 
 let validadeNoCartao = document.querySelector(".validadeNoCartao")
 let validade = document.querySelector("#validade")
 
+ */
 
-
-validade.addEventListener("focusin", () => {
+/* validade.addEventListener("focusin", () => {
     validadeNoCartao.innerText = `${validade.value.substr(5,2)  + "  /  " + validade.value.substr(2,2)}`
 })
-
-
-
+ */
 
 

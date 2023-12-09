@@ -147,3 +147,7 @@ input {
     color: red;
     font-weight: bold;
 }
+
+.dark_mode {
+    background-color: black;
+}

@@ -48,3 +48,6 @@ validaCPF.addEventListener("focusout", () => {
         validaCPF.value += " " + String.fromCodePoint(0x1F600)
     }
 })
+
+
+
